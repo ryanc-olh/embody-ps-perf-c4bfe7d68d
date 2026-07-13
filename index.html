@@ -33,10 +33,9 @@
   .sw{width:11px;height:11px;border-radius:2px;display:inline-block;}
   .note{font-size:12px;color:var(--mut);margin-top:8px;}
   .picker{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 14px;padding:10px 14px;background:var(--card);border-radius:10px;}
-  .daybtns{display:flex;gap:6px;flex-wrap:wrap;}
-  .daybtn{font-size:13px;padding:6px 12px;border:1px solid var(--bds);border-radius:6px;background:#fff;color:var(--ink);cursor:pointer;line-height:1.2;}
-  .daybtn:hover{border-color:#2a78d6;}
-  .daybtn.active{background:#2a78d6;color:#fff;border-color:#2a78d6;}
+  .daysel{font-size:13px;padding:7px 34px 7px 12px;border:1px solid var(--bds);border-radius:6px;background:#fff;color:var(--ink);cursor:pointer;line-height:1.2;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2352514e' d='M2 4.5l4 4 4-4z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;}
+  .daysel:hover{border-color:#2a78d6;}
+  .daysel:focus{outline:none;border-color:#2a78d6;box-shadow:0 0 0 2px rgba(42,120,214,0.25);}
 </style>
 </head>
 <body>
@@ -72,13 +71,14 @@
       <tr><td>Sat 7/11</td><td>549</td><td>297</td><td class="red">27%</td><td class="red">787s</td><td class="red">46%</td></tr>
       <tr><td>Sun 7/12</td><td>964</td><td>945</td><td class="grn">85%</td><td>24s</td><td>2.0%</td></tr>
       <tr class="tot"><td>Jul 6–12</td><td>7,362</td><td>5,922</td><td class="red">46%</td><td>—</td><td class="red">20%</td></tr>
+      <tr class="amb"><td>Mon 7/13*</td><td>33</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
     </tbody>
   </table>
   <div class="grid charts" style="margin-top:20px;">
     <div><div class="lbl" style="margin-top:0;">Inbound Volume by Day</div><div class="cbox"><canvas id="c1"></canvas></div></div>
     <div><div class="lbl" style="margin-top:0;">Answered ≤30s by Day (Target 80%)</div><div class="cbox"><canvas id="c2"></canvas></div></div>
   </div>
-  <div class="note">* Mon 7/13 (amber) is a partial day — data received so far (voice feed current to ~6:46a CT, email to ~noon); not comparable to the full days.</div>
+  <div class="note">* Mon 7/13 (amber) is a partial day — data received so far (voice feed current to ~6:46a CT, email to ~noon); not comparable to the full days and excluded from the Jul 6–12 total.</div>
 
   <div class="sec">Email</div>
   <div class="grid kpis">
@@ -99,8 +99,10 @@
       <tr><td>Sat 7/11</td><td>858</td><td>876</td><td class="grn">-18</td></tr>
       <tr><td>Sun 7/12</td><td>664</td><td>1,226</td><td class="grn">-562</td></tr>
       <tr class="tot"><td>Jul 6–12</td><td>5,341</td><td>5,235</td><td>+106</td></tr>
+      <tr class="amb"><td>Mon 7/13*</td><td>618</td><td>356</td><td>+262</td></tr>
     </tbody>
   </table>
+  <div class="note">* Mon 7/13 (amber) is partial — received/resolved so far (email feed to ~noon ET); excluded from the Jul 6–12 total.</div>
 
   <div class="sec">Chat</div>
   <div class="grid kpis">
@@ -119,22 +121,24 @@
       <tr><td>Sat 7/11</td><td>7</td><td class="grn">100%</td><td>7s</td></tr>
       <tr><td>Sun 7/12</td><td>7</td><td class="grn">100%</td><td>6s</td></tr>
       <tr class="tot"><td>Jul 6–12</td><td>66</td><td class="grn">97%</td><td>~8s</td></tr>
+      <tr class="amb"><td>Mon 7/13*</td><td>0</td><td>—</td><td>—</td></tr>
     </tbody>
   </table>
+  <div class="note">* Mon 7/13 (amber) is partial — chats so far (voice/chat feed to ~6:46a CT); excluded from the Jul 6–12 total.</div>
 
   <div class="sec">Intraday by Hour</div>
   <div class="picker">
-    <span style="font-size:14px;color:var(--sec);">Day</span>
-    <div id="dayBtns" class="daybtns">
-      <button type="button" class="daybtn" data-d="7/6">Mon · Jul 6</button>
-      <button type="button" class="daybtn" data-d="7/7">Tue · Jul 7</button>
-      <button type="button" class="daybtn" data-d="7/8">Wed · Jul 8</button>
-      <button type="button" class="daybtn active" data-d="7/9">Thu · Jul 9</button>
-      <button type="button" class="daybtn" data-d="7/10">Fri · Jul 10</button>
-      <button type="button" class="daybtn" data-d="7/11">Sat · Jul 11</button>
-      <button type="button" class="daybtn" data-d="7/12">Sun · Jul 12</button>
-      <button type="button" class="daybtn" data-d="7/13">Mon · Jul 13*</button>
-    </div>
+    <label for="daySel" style="font-size:14px;color:var(--sec);">Day</label>
+    <select id="daySel" class="daysel">
+      <option value="7/6">Mon · Jul 6</option>
+      <option value="7/7">Tue · Jul 7</option>
+      <option value="7/8">Wed · Jul 8</option>
+      <option value="7/9">Thu · Jul 9</option>
+      <option value="7/10">Fri · Jul 10</option>
+      <option value="7/11">Sat · Jul 11</option>
+      <option value="7/12" selected>Sun · Jul 12</option>
+      <option value="7/13">Mon · Jul 13*</option>
+    </select>
     <span id="dstat" style="font-size:13px;color:var(--sec);"></span>
   </div>
   <div class="grid charts">
@@ -164,16 +168,12 @@
   var sum=function(a){return a.reduce(function(x,y){return x+y;},0);};
   var xh={grid:{display:false},ticks:{color:mut,font:{size:10},maxRotation:0,autoSkip:false,callback:function(v,i){return i%3===0?hrs[i]:'';}}};
   var yh={grid:{color:grid},ticks:{color:mut,font:{size:11},precision:0}};
-  var cv=new Chart(document.getElementById('cv'),{type:'bar',data:{labels:hrs,datasets:[{label:'Inbound volume',data:VOFF['7/9'],backgroundColor:'#2a78d6',borderRadius:3,maxBarThickness:16}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:function(t){return t[0].label+' CT';}}}},scales:{x:xh,y:yh}}});
-  var ce=new Chart(document.getElementById('ce'),{type:'bar',data:{labels:hrs,datasets:[{label:'Received',data:EREC['7/9'],backgroundColor:'#2a78d6',borderRadius:3,maxBarThickness:12},{label:'Resolved',data:ECLO['7/9'],backgroundColor:'#1baf7a',borderRadius:3,maxBarThickness:12}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:function(t){return t[0].label+' CT';}}}},scales:{x:xh,y:yh}}});
+  var cv=new Chart(document.getElementById('cv'),{type:'bar',data:{labels:hrs,datasets:[{label:'Inbound volume',data:VOFF['7/12'],backgroundColor:'#2a78d6',borderRadius:3,maxBarThickness:16}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:function(t){return t[0].label+' CT';}}}},scales:{x:xh,y:yh}}});
+  var ce=new Chart(document.getElementById('ce'),{type:'bar',data:{labels:hrs,datasets:[{label:'Received',data:EREC['7/12'],backgroundColor:'#2a78d6',borderRadius:3,maxBarThickness:12},{label:'Resolved',data:ECLO['7/12'],backgroundColor:'#1baf7a',borderRadius:3,maxBarThickness:12}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:function(t){return t[0].label+' CT';}}}},scales:{x:xh,y:yh}}});
   function render(d){var vo=VOFF[d]||Z(),er=EREC[d]||Z(),ec=ECLO[d]||Z();cv.data.datasets[0].data=vo;cv.update();ce.data.datasets[0].data=er;ce.data.datasets[1].data=ec;ce.update();document.getElementById('dstat').textContent='Voice inbound '+sum(vo)+' · Email received '+sum(er)+' / resolved '+sum(ec);}
-  var dayBtns=document.querySelectorAll('#dayBtns .daybtn');
-  dayBtns.forEach(function(b){b.addEventListener('click',function(){
-    dayBtns.forEach(function(x){x.classList.remove('active');});
-    b.classList.add('active');
-    render(b.getAttribute('data-d'));
-  });});
-  render('7/9');
+  var daySel=document.getElementById('daySel');
+  daySel.addEventListener('change',function(){render(daySel.value);});
+  render(daySel.value);
 })();
 </script>
 </body>
