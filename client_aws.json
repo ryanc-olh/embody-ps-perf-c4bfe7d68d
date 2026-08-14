@@ -1,7 +1,7 @@
 {
  "client": "embody",
- "generated_at": "2026-08-13T20:14:02-05:00",
- "generated_at_ct": "8:14pm",
+ "generated_at": "2026-08-13T21:27:13-05:00",
+ "generated_at_ct": "9:27pm",
  "window": {
   "start": "2026-08-06",
   "end": "2026-08-12"
@@ -114,16 +114,16 @@
    }
   },
   "today": {
-   "offered": 7975,
-   "answered": 5842,
-   "offered_live": 7794,
-   "answered_live": 5745,
+   "offered": 8191,
+   "answered": 5974,
+   "offered_live": 7951,
+   "answered_live": 5815,
    "answered_in_sl": 534,
-   "short_abandoned": 96,
-   "sl_den": 7698,
-   "sl": 6.94,
-   "asa_s": 669.2,
-   "aht_s": 740.2
+   "short_abandoned": 101,
+   "sl_den": 7850,
+   "sl": 6.8,
+   "asa_s": 690.8,
+   "aht_s": 739.8
   }
  },
  "chat_informational": {
@@ -1897,22 +1897,22 @@
     303
    ],
    [
-    26,
+    113,
     0,
-    34332183,
-    15,
-    41,
-    0,
-    62
+    145342339,
+    59,
+    135,
+    3,
+    212
    ],
    [
+    45,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    66492876,
+    26,
+    63,
+    2,
+    66
    ],
    [
     0,
