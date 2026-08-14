@@ -1,7 +1,7 @@
 {
  "client": "embody",
- "generated_at": "2026-08-14T09:23:09-05:00",
- "generated_at_ct": "9:23am",
+ "generated_at": "2026-08-14T10:03:13-05:00",
+ "generated_at_ct": "10:03am",
  "window": {
   "start": "2026-08-07",
   "end": "2026-08-13"
@@ -35,8 +35,9 @@
     "answered_live": 1941,
     "answered_in_sl": 114,
     "short_abandoned": 90,
-    "sl_den": 4469,
-    "sl": 2.55,
+    "sl_den": 4559,
+    "sl": 4.47,
+    "sl_answered_only": 2.55,
     "asa_s": 1677.7,
     "aht_s": 708.5
    },
@@ -47,8 +48,9 @@
     "answered_live": 1622,
     "answered_in_sl": 80,
     "short_abandoned": 61,
-    "sl_den": 3229,
-    "sl": 2.48,
+    "sl_den": 3290,
+    "sl": 4.29,
+    "sl_answered_only": 2.48,
     "asa_s": 1390.0,
     "aht_s": 665.1
    },
@@ -59,8 +61,9 @@
     "answered_live": 2581,
     "answered_in_sl": 569,
     "short_abandoned": 51,
-    "sl_den": 3304,
-    "sl": 17.22,
+    "sl_den": 3355,
+    "sl": 18.48,
+    "sl_answered_only": 17.22,
     "asa_s": 537.6,
     "aht_s": 636.3
    },
@@ -71,8 +74,9 @@
     "answered_live": 3126,
     "answered_in_sl": 116,
     "short_abandoned": 128,
-    "sl_den": 6630,
-    "sl": 1.75,
+    "sl_den": 6758,
+    "sl": 3.61,
+    "sl_answered_only": 1.75,
     "asa_s": 1746.1,
     "aht_s": 701.7
    },
@@ -83,8 +87,9 @@
     "answered_live": 3284,
     "answered_in_sl": 102,
     "short_abandoned": 116,
-    "sl_den": 6811,
-    "sl": 1.5,
+    "sl_den": 6927,
+    "sl": 3.15,
+    "sl_answered_only": 1.5,
     "asa_s": 1516.1,
     "aht_s": 749.0
    },
@@ -95,8 +100,9 @@
     "answered_live": 4303,
     "answered_in_sl": 79,
     "short_abandoned": 132,
-    "sl_den": 7866,
-    "sl": 1.0,
+    "sl_den": 7998,
+    "sl": 2.64,
+    "sl_answered_only": 1.0,
     "asa_s": 1383.4,
     "aht_s": 767.6
    },
@@ -107,23 +113,25 @@
     "answered_live": 5934,
     "answered_in_sl": 552,
     "short_abandoned": 105,
-    "sl_den": 8047,
-    "sl": 6.86,
+    "sl_den": 8152,
+    "sl": 8.06,
+    "sl_answered_only": 6.86,
     "asa_s": 710.1,
     "aht_s": 739.8
    }
   },
   "today": {
-   "offered": 1482,
-   "answered": 1216,
-   "offered_live": 1482,
-   "answered_live": 1217,
-   "answered_in_sl": 547,
-   "short_abandoned": 11,
-   "sl_den": 1471,
-   "sl": 37.19,
-   "asa_s": 202.4,
-   "aht_s": 686.7
+   "offered": 1920,
+   "answered": 1596,
+   "offered_live": 1920,
+   "answered_live": 1597,
+   "answered_in_sl": 855,
+   "short_abandoned": 13,
+   "sl_den": 1920,
+   "sl": 45.21,
+   "sl_answered_only": 44.83,
+   "asa_s": 161.5,
+   "aht_s": 709.6
   }
  },
  "chat_informational": {
@@ -187,15 +195,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 834,
-   "offered_live": 881,
-   "answered_live": 833,
+   "answered": 1096,
+   "offered_live": 1155,
+   "answered_live": 1096,
    "answered_in_sl": 114,
-   "short_abandoned": 31,
-   "sl_den": 850,
+   "short_abandoned": 39,
+   "sl_den": 1116,
    "sl_secs": 30,
-   "sl": 13.41,
-   "asa_s": 438.2,
+   "sl": 10.22,
+   "asa_s": 423.1,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -1812,22 +1820,22 @@
     566
    ],
    [
-    198,
-    192,
-    1929030,
-    197,
-    213,
-    0,
-    213
+    568,
+    496,
+    12505832,
+    568,
+    608,
+    2,
+    608
    ],
    [
+    9,
+    1,
+    1146361,
+    7,
+    43,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    43
    ],
    [
     0,
