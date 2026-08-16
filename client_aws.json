@@ -1,7 +1,7 @@
 {
  "client": "embody",
- "generated_at": "2026-08-16T18:17:05-05:00",
- "generated_at_ct": "6:17pm",
+ "generated_at": "2026-08-16T21:22:41-05:00",
+ "generated_at_ct": "9:22pm",
  "window": {
   "start": "2026-08-09",
   "end": "2026-08-15"
@@ -121,17 +121,17 @@
    }
   },
   "today": {
-   "offered": 2709,
-   "answered": 2098,
-   "offered_live": 2669,
-   "answered_live": 2078,
+   "offered": 3071,
+   "answered": 2357,
+   "offered_live": 2993,
+   "answered_live": 2279,
    "answered_in_sl": 377,
-   "short_abandoned": 37,
-   "sl_den": 2669,
-   "sl": 15.51,
-   "sl_answered_only": 14.32,
-   "asa_s": 437.3,
-   "aht_s": 730.7
+   "short_abandoned": 41,
+   "sl_den": 2993,
+   "sl": 13.97,
+   "sl_answered_only": 12.77,
+   "asa_s": 500.3,
+   "aht_s": 735.7
   }
  },
  "chat_informational": {
@@ -223,15 +223,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 2428,
-   "offered_live": 2471,
-   "answered_live": 2428,
-   "answered_in_sl": 1662,
-   "short_abandoned": 32,
-   "sl_den": 2439,
+   "answered": 2557,
+   "offered_live": 2604,
+   "answered_live": 2557,
+   "answered_in_sl": 1728,
+   "short_abandoned": 35,
+   "sl_den": 2569,
    "sl_secs": 30,
-   "sl": 68.14,
-   "asa_s": 40.3,
+   "sl": 67.26,
+   "asa_s": 41.0,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -1814,7 +1814,7 @@
    [
     18,
     16,
-    125923,
+    125924,
     18,
     15,
     0,
@@ -1868,7 +1868,7 @@
    [
     210,
     0,
-    152082578,
+    152082577,
     210,
     273,
     4,
@@ -1929,40 +1929,40 @@
     197
    ],
    [
-    29,
+    103,
     0,
-    25131497,
-    13,
-    32,
-    3,
-    56
+    103505908,
+    51,
+    104,
+    4,
+    160
    ],
    [
+    102,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    87125697,
+    80,
+    112,
+    1,
+    118
    ],
    [
+    63,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    48866821,
+    63,
+    112,
+    2,
+    112
    ],
    [
+    20,
     0,
+    17160545,
+    20,
+    28,
     0,
-    0,
-    0,
-    0,
-    0,
-    0
+    28
    ],
    [
     0,
