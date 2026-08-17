@@ -1,7 +1,7 @@
 {
  "client": "embody",
- "generated_at": "2026-08-17T05:26:24-05:00",
- "generated_at_ct": "5:26am",
+ "generated_at": "2026-08-17T10:38:41-05:00",
+ "generated_at_ct": "10:38am",
  "window": {
   "start": "2026-08-10",
   "end": "2026-08-16"
@@ -121,17 +121,17 @@
    }
   },
   "today": {
-   "offered": 75,
-   "answered": 72,
-   "offered_live": 75,
-   "answered_live": 72,
-   "answered_in_sl": 68,
-   "short_abandoned": 0,
-   "sl_den": 75,
-   "sl": 90.67,
-   "sl_answered_only": 90.67,
-   "asa_s": 10.2,
-   "aht_s": 692.1
+   "offered": 2521,
+   "answered": 1646,
+   "offered_live": 2521,
+   "answered_live": 1646,
+   "answered_in_sl": 77,
+   "short_abandoned": 18,
+   "sl_den": 2521,
+   "sl": 3.77,
+   "sl_answered_only": 3.08,
+   "asa_s": 602.3,
+   "aht_s": 755.3
   }
  },
  "chat_informational": {
@@ -235,7 +235,20 @@
     "hours_ct": "06:00-18:59"
    }
   },
-  "today": null,
+  "today": {
+   "offered": 0,
+   "answered": 1514,
+   "offered_live": 1624,
+   "answered_live": 1515,
+   "answered_in_sl": 95,
+   "short_abandoned": 57,
+   "sl_den": 1567,
+   "sl_secs": 30,
+   "sl": 6.06,
+   "asa_s": 548.0,
+   "aht_s": null,
+   "hours_ct": "06:00-18:59"
+  },
   "hours_ct": "06:00-18:59 CT",
   "caveat": "business-hours window only; does NOT exclude chats answered the next day, so SL/ASA here are not comparable to the dashboard's Zoho-sourced chat figures"
  },
@@ -1813,58 +1826,58 @@
     11
    ],
    [
-    5,
-    5,
-    61041,
-    5,
-    10,
+    23,
+    12,
+    2132159,
+    23,
+    36,
     0,
-    10
+    36
    ],
    [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    81,
+    1,
+    35391670,
+    81,
+    138,
+    2,
+    138
    ],
    [
+    263,
     0,
+    98270687,
+    263,
+    368,
     0,
-    0,
-    0,
-    0,
-    0,
-    0
+    368
    ],
    [
+    407,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    182695371,
+    407,
+    601,
+    1,
+    601
    ],
    [
+    507,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    367563128,
+    507,
+    783,
+    9,
+    783
    ],
    [
+    298,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    304573352,
+    298,
+    530,
+    6,
+    530
    ],
    [
     0,
@@ -1984,11 +1997,6 @@
     0
    ]
   ]
- },
- "email_live": {
-  "rec": 107,
-  "clo": 33,
-  "asof_ct": "5:26am"
  },
  "errors": [],
  "ok": true
