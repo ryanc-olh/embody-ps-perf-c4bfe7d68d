@@ -1,7 +1,7 @@
 {
  "client": "embody",
- "generated_at": "2026-08-23T05:23:18-05:00",
- "generated_at_ct": "5:23am",
+ "generated_at": "2026-08-23T06:30:57-05:00",
+ "generated_at_ct": "6:30am",
  "window": {
   "start": "2026-08-16",
   "end": "2026-08-22"
@@ -212,17 +212,17 @@
    }
   },
   "today": {
-   "offered": 32,
-   "answered": 37,
-   "offered_live": 32,
-   "answered_live": 37,
-   "answered_in_sl": 35,
+   "offered": 52,
+   "answered": 54,
+   "offered_live": 52,
+   "answered_live": 54,
+   "answered_in_sl": 52,
    "short_abandoned": 0,
-   "sl_den": 32,
-   "sl": 109.38,
-   "sl_answered_only": 109.38,
-   "asa_s": 9.8,
-   "aht_s": 697.7
+   "sl_den": 52,
+   "sl": 100.0,
+   "sl_answered_only": 100.0,
+   "asa_s": 9.1,
+   "aht_s": 661.3
   }
  },
  "chat_informational": {
@@ -326,7 +326,20 @@
     "hours_ct": "06:00-18:59"
    }
   },
-  "today": null,
+  "today": {
+   "offered": 0,
+   "answered": 14,
+   "offered_live": 14,
+   "answered_live": 14,
+   "answered_in_sl": 14,
+   "short_abandoned": 0,
+   "sl_den": 14,
+   "sl_secs": 30,
+   "sl": 100.0,
+   "asa_s": 7.3,
+   "aht_s": null,
+   "hours_ct": "06:00-18:59"
+  },
   "hours_ct": "06:00-18:59 CT",
   "caveat": "business-hours window only; does NOT exclude chats answered the next day, so SL/ASA here are not comparable to the dashboard's Zoho-sourced chat figures"
  },
@@ -1904,22 +1917,22 @@
     4
    ],
    [
-    1,
-    1,
-    6948,
-    1,
-    1,
+    8,
+    8,
+    58123,
+    8,
+    12,
     0,
-    1
+    12
    ],
    [
+    10,
+    10,
+    79693,
+    10,
+    9,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    9
    ],
    [
     0,
@@ -2083,7 +2096,7 @@
   0,
   0,
   0,
-  0,
+  14,
   0,
   0,
   0,
@@ -2103,9 +2116,9 @@
   0
  ],
  "email_live": {
-  "rec": 64,
-  "clo": 365,
-  "asof_ct": "5:22am"
+  "rec": 115,
+  "clo": 503,
+  "asof_ct": "6:30am"
  },
  "errors": [],
  "ok": true
