@@ -1,7 +1,7 @@
 {
  "client": "embody",
- "generated_at": "2026-09-06T17:17:45-05:00",
- "generated_at_ct": "5:17pm",
+ "generated_at": "2026-09-06T21:47:13-05:00",
+ "generated_at_ct": "9:47pm",
  "window": {
   "start": "2026-08-30",
   "end": "2026-09-05"
@@ -212,17 +212,17 @@
    }
   },
   "today": {
-   "offered": 1718,
-   "answered": 1701,
-   "offered_live": 1718,
-   "answered_live": 1701,
-   "answered_in_sl": 1682,
+   "offered": 2119,
+   "answered": 2115,
+   "offered_live": 2119,
+   "answered_live": 2115,
+   "answered_in_sl": 2065,
    "short_abandoned": 4,
-   "sl_den": 1718,
-   "sl": 98.14,
-   "sl_answered_only": 98.13,
-   "asa_s": 6.6,
-   "aht_s": 670.0
+   "sl_den": 2119,
+   "sl": 97.64,
+   "sl_answered_only": 97.64,
+   "asa_s": 8.2,
+   "aht_s": 682.9
   }
  },
  "chat_informational": {
@@ -328,15 +328,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 4227,
-   "offered_live": 4233,
-   "answered_live": 4227,
-   "answered_in_sl": 4221,
-   "short_abandoned": 6,
-   "sl_den": 4227,
+   "answered": 4828,
+   "offered_live": 4837,
+   "answered_live": 4828,
+   "answered_in_sl": 4747,
+   "short_abandoned": 9,
+   "sl_den": 4828,
    "sl_secs": 30,
-   "sl": 99.86,
-   "asa_s": 7.2,
+   "sl": 98.32,
+   "asa_s": 8.0,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -2025,49 +2025,49 @@
     147
    ],
    [
-    25,
-    25,
-    161243,
-    25,
-    32,
+    126,
+    116,
+    1400344,
+    126,
+    127,
     0,
-    32
+    127
    ],
    [
+    94,
+    94,
+    576387,
+    94,
+    90,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    90
    ],
    [
+    97,
+    97,
+    599768,
+    97,
+    99,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    99
    ],
    [
+    79,
+    65,
+    2781651,
+    79,
+    80,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    80
    ],
    [
+    43,
+    36,
+    994040,
+    43,
+    37,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    37
    ],
    [
     0,
@@ -2107,18 +2107,18 @@
   382,
   411,
   432,
-  89,
-  0,
-  0,
+  342,
+  351,
+  44,
   0,
   0,
   0,
   0
  ],
  "email_live": {
-  "rec": 1591,
-  "clo": 1644,
-  "asof_ct": "5:12pm"
+  "rec": 1796,
+  "clo": 1736,
+  "asof_ct": "9:39pm"
  },
  "errors": [],
  "ok": true
