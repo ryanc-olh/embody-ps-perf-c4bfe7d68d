@@ -1,7 +1,7 @@
 {
  "client": "embody",
- "generated_at": "2026-09-12T05:22:14-05:00",
- "generated_at_ct": "5:22am",
+ "generated_at": "2026-09-12T07:57:58-05:00",
+ "generated_at_ct": "7:57am",
  "window": {
   "start": "2026-09-05",
   "end": "2026-09-11"
@@ -212,17 +212,17 @@
    }
   },
   "today": {
-   "offered": 65,
-   "answered": 63,
-   "offered_live": 65,
-   "answered_live": 63,
-   "answered_in_sl": 63,
-   "short_abandoned": 1,
-   "sl_den": 65,
-   "sl": 98.46,
-   "sl_answered_only": 98.44,
-   "asa_s": 7.2,
-   "aht_s": 738.6
+   "offered": 319,
+   "answered": 266,
+   "offered_live": 319,
+   "answered_live": 266,
+   "answered_in_sl": 211,
+   "short_abandoned": 4,
+   "sl_den": 319,
+   "sl": 67.4,
+   "sl_answered_only": 66.98,
+   "asa_s": 64.8,
+   "aht_s": 662.7
   }
  },
  "chat_informational": {
@@ -326,7 +326,20 @@
     "hours_ct": "06:00-18:59"
    }
   },
-  "today": null,
+  "today": {
+   "offered": 0,
+   "answered": 528,
+   "offered_live": 528,
+   "answered_live": 528,
+   "answered_in_sl": 528,
+   "short_abandoned": 0,
+   "sl_den": 528,
+   "sl_secs": 30,
+   "sl": 100.0,
+   "asa_s": 6.6,
+   "aht_s": null,
+   "hours_ct": "06:00-18:59"
+  },
   "hours_ct": "06:00-18:59 CT",
   "caveat": "business-hours window only; does NOT exclude chats answered the next day, so SL/ASA here are not comparable to the dashboard's Zoho-sourced chat figures"
  },
@@ -1904,31 +1917,31 @@
     7
    ],
    [
-    4,
-    4,
-    29268,
-    4,
-    6,
-    0,
-    6
+    21,
+    21,
+    142627,
+    21,
+    27,
+    1,
+    27
    ],
    [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    41,
+    27,
+    4553344,
+    41,
+    68,
+    1,
+    68
    ],
    [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    146,
+    105,
+    12172611,
+    146,
+    165,
+    1,
+    165
    ],
    [
     0,
@@ -2083,8 +2096,8 @@
   0,
   0,
   0,
-  0,
-  0,
+  186,
+  343,
   0,
   0,
   0,
@@ -2103,9 +2116,9 @@
   0
  ],
  "email_live": {
-  "rec": 92,
-  "clo": 314,
-  "asof_ct": "5:20am"
+  "rec": 322,
+  "clo": 565,
+  "asof_ct": "7:56am"
  },
  "errors": [],
  "ok": true
